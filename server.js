@@ -6,11 +6,11 @@ const app = express();
 
 
 
-<<<<<<< HEAD
+
 mongoose.connect('mongodb://silvia:password123@ds137650.mlab.com:37650/mongooo',{ useNewUrlParser: true });
-=======
-mongoose.connect('mongodb://localhost/car',{ useNewUrlParser: true });
->>>>>>> ba99fd600c7dcfe9aaefa4ca684a847d39b1f792
+
+
+
 
 const Car = require('./app/carModel.js');
 
