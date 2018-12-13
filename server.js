@@ -18,8 +18,8 @@ const Car = require('./app/carModel.js');
 app.use(bodyParser.urlencoded({ extended: true }));  
  
 app.use(bodyParser.json());
-
-app.listen(80 || process.env.PORT, () => {
+let port = process.env.PORT || 80;
+app.listen(port, () => {
     console.log('App Successful listening on port 3000');
 });
 
