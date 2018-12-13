@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
  
 app.use(bodyParser.json());
 
-app.listen(3000 || process.env.PORT, () => {
+app.listen(80 || process.env.PORT, () => {
     console.log('App Successful listening on port 3000');
 });
 
